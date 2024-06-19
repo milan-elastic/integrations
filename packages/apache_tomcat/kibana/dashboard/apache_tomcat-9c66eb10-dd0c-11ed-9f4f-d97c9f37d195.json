@@ -84,7 +84,11 @@
                             },
                             {
                                 "id": "logs-*",
+<<<<<<< HEAD
                                 "name": "be7a31fc-fdbf-4791-81bc-e7c6f7fd4e72",
+=======
+                                "name": "53285f39-f623-41c9-ae58-f17d2f93c83b",
+>>>>>>> e6ec30393 (minor change in apache tomcat catalina and localhost dashboard)
                                 "type": "index-pattern"
                             }
                         ],
@@ -155,9 +159,15 @@
                                     "meta": {
                                         "alias": null,
                                         "disabled": false,
+<<<<<<< HEAD
                                         "field": "event.dataset",
                                         "index": "be7a31fc-fdbf-4791-81bc-e7c6f7fd4e72",
                                         "key": "event.dataset",
+=======
+                                        "field": "data_stream.dataset",
+                                        "index": "53285f39-f623-41c9-ae58-f17d2f93c83b",
+                                        "key": "data_stream.dataset",
+>>>>>>> e6ec30393 (minor change in apache tomcat catalina and localhost dashboard)
                                         "negate": false,
                                         "params": {
                                             "query": "apache_tomcat.catalina"
@@ -166,7 +176,11 @@
                                     },
                                     "query": {
                                         "match_phrase": {
+<<<<<<< HEAD
                                             "event.dataset": "apache_tomcat.catalina"
+=======
+                                            "data_stream.dataset": "apache_tomcat.catalina"
+>>>>>>> e6ec30393 (minor change in apache tomcat catalina and localhost dashboard)
                                         }
                                     }
                                 }
@@ -228,7 +242,11 @@
                             },
                             {
                                 "id": "logs-*",
+<<<<<<< HEAD
                                 "name": "1fb283e4-af20-4f0b-b875-baaaacd84281",
+=======
+                                "name": "047e3f42-7b80-46ec-a500-4ec8803dbe74",
+>>>>>>> e6ec30393 (minor change in apache tomcat catalina and localhost dashboard)
                                 "type": "index-pattern"
                             }
                         ],
@@ -299,9 +317,15 @@
                                     "meta": {
                                         "alias": null,
                                         "disabled": false,
+<<<<<<< HEAD
                                         "field": "event.dataset",
                                         "index": "1fb283e4-af20-4f0b-b875-baaaacd84281",
                                         "key": "event.dataset",
+=======
+                                        "field": "data_stream.dataset",
+                                        "index": "047e3f42-7b80-46ec-a500-4ec8803dbe74",
+                                        "key": "data_stream.dataset",
+>>>>>>> e6ec30393 (minor change in apache tomcat catalina and localhost dashboard)
                                         "negate": false,
                                         "params": {
                                             "query": "apache_tomcat.localhost"
@@ -310,7 +334,11 @@
                                     },
                                     "query": {
                                         "match_phrase": {
+<<<<<<< HEAD
                                             "event.dataset": "apache_tomcat.localhost"
+=======
+                                            "data_stream.dataset": "apache_tomcat.localhost"
+>>>>>>> e6ec30393 (minor change in apache tomcat catalina and localhost dashboard)
                                         }
                                     }
                                 }
@@ -401,8 +429,13 @@
         "title": "[Logs Apache Tomcat] Catalina and Localhost",
         "version": 1
     },
+<<<<<<< HEAD
     "coreMigrationVersion": "8.7.0",
     "created_at": "2023-07-24T10:47:18.401Z",
+=======
+    "coreMigrationVersion": "8.8.0",
+    "created_at": "2024-05-06T12:38:03.227Z",
+>>>>>>> e6ec30393 (minor change in apache tomcat catalina and localhost dashboard)
     "id": "apache_tomcat-9c66eb10-dd0c-11ed-9f4f-d97c9f37d195",
     "migrationVersion": {
         "dashboard": "8.7.0"
@@ -420,7 +453,11 @@
         },
         {
             "id": "logs-*",
+<<<<<<< HEAD
             "name": "ce217a0a-1038-4867-b22b-c51765d12c99:be7a31fc-fdbf-4791-81bc-e7c6f7fd4e72",
+=======
+            "name": "ce217a0a-1038-4867-b22b-c51765d12c99:53285f39-f623-41c9-ae58-f17d2f93c83b",
+>>>>>>> e6ec30393 (minor change in apache tomcat catalina and localhost dashboard)
             "type": "index-pattern"
         },
         {
@@ -430,7 +467,16 @@
         },
         {
             "id": "logs-*",
+<<<<<<< HEAD
             "name": "e48f4633-1502-44e1-b093-2b9bc378d24c:1fb283e4-af20-4f0b-b875-baaaacd84281",
+=======
+            "name": "e48f4633-1502-44e1-b093-2b9bc378d24c:047e3f42-7b80-46ec-a500-4ec8803dbe74",
+            "type": "index-pattern"
+        },
+        {
+            "id": "logs-*",
+            "name": "2b6abb8b-9434-489f-b900-ef03efa9fc8f:kibanaSavedObjectMeta.searchSourceJSON.index",
+>>>>>>> e6ec30393 (minor change in apache tomcat catalina and localhost dashboard)
             "type": "index-pattern"
         },
         {
